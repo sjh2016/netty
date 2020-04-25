@@ -3,4 +3,8 @@ Netty 是一个异步的，基于事件驱动的网络应用框架,用以快否�
 Netty 主要针对在TCP协议下，面向Clients端的高并发应用,或者Peer-to-Peer场景下的大量数据持续传输的应用
 Netty本质是一个NIO框架,适用于服务器通讯相关的多种应用场景
 
+异步，基于事件驱动，用以开发高性能，高可靠性的网络IO程序   TCP协议下的 NIO框架
 
+Selector   Channel   Buffer
+每个channel对应一个buffer
+selector对应一个线程，一个线程 对应多个chaneel
